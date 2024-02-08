@@ -391,6 +391,17 @@ footer {
 		border: none;
 		height: 48px;
 	}
+	.headerActiveBorder {
+		position: fixed;
+		z-index: 9999999;
+		top: 48px;
+		right: 0;
+		left: 0;
+		background-color: transparent;
+		border-bottom: 1px solid transparent;
+		border-image: linear-gradient(to right, #69cde6, #1aabd0, #006c86);
+		border-image-slice: 1;
+	}
 	.navItems {
 		display: none;
 	}
@@ -450,17 +461,6 @@ footer {
 	}
 }
 @media screen and (max-width: 450px) {
-	.headerActiveBorder {
-		position: fixed;
-		z-index: 9999999;
-		top: 48px;
-		right: 0;
-		left: 0;
-		background-color: transparent;
-		border-bottom: 1px solid transparent;
-		border-image: linear-gradient(to right, #69cde6, #1aabd0, #006c86);
-		border-image-slice: 1;
-	}
 	.myNav {
 		margin: 5px;
 		padding: 5px;
