@@ -389,7 +389,10 @@ footer {
 	header {
 		position: fixed;
 		border: none;
-		height: 48px;
+		height: 48px !important;
+	}
+	nav {
+		height: 48px !important;
 	}
 	.headerActiveBorder {
 		position: fixed;
