@@ -386,6 +386,11 @@ footer {
 	}
 }
 @media screen and (max-width: 550px) {
+	header {
+		position: fixed;
+		border: none;
+		height: 48px;
+	}
 	.navItems {
 		display: none;
 	}
@@ -445,10 +450,6 @@ footer {
 	}
 }
 @media screen and (max-width: 450px) {
-	header {
-		position: fixed;
-		border: none;
-	}
 	.headerActiveBorder {
 		position: fixed;
 		z-index: 9999999;
